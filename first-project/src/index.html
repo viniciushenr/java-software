@@ -1,0 +1,33 @@
+<html lang="en">
+  
+  <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
+</script>
+  
+  <h1 id="h1"> Firts application Web Design</h1>
+  
+  <canvas id="canvas_fig"></canvas>
+  
+  <div>
+  <p>
+    Choose File:
+    <input type="file" accepts="image/*" multiple="false" id="buttonLoadImg" value="Load image" class="inputfile" onchange="loadImage()">
+  </p>
+  </div>
+
+<div>
+  <p>
+    Choose Filters:
+    <button id="buttonFilter1" onclick="filterGrayscale()">Grayscale</button>
+    <button id="buttonFilter2" onclick="filterRed()">Red</button>
+    <button id="buttonFilter3" onclick="filterRainbow()">Rainbow</button>
+  </p>
+  </div>
+  
+  <div>
+  <p>
+    Reset image:
+    <button id="buttonReset" onclick="reset()">Reset</button>
+  </p>
+  </div>
+  
+</html>
